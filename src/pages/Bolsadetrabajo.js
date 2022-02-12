@@ -8,7 +8,7 @@ export const Bolsadetrabajo = () => {
   <div className=" grid md:grid-cols-2 gap-x-4 sm:px-6 sm:text-left md:text-left lg:text-left">
       <div>
           <h1 className=" tracking-tight font-custom  text-gray-900 text-3xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl ">
-              <span className=" title-container font-custom block xl:inline">Estas Ancioso como nosotros!</span>
+              <span className=" title-container font-custom block xl:inline">¿Ansiedad? … ¡Nosotros también!</span>
           </h1>
           <p className="mt-3 text-sm font-custom text-gray-500 sm:mt-5 sm:text-sm sm:mx-auto md:max-w-xl lg:max-w-xl md:mt-5 md:text-lg lg:mx-0">
           Estamos trabajando para presentarles nuestra bolsa de trabajo, y con la misma, tenemos dos objetivos. El primero, es ayudar a conectar entre empresas y profesionales, para contribuir en oferta y demanda de empleo. Por otro lado, queremos recolectar datos para poder presentar información sobre el Ecosistema IT de Santa Cruz, a pesar de que cualquier persona de Argentina pueda registrarse. 
