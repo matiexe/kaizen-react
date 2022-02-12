@@ -52,7 +52,7 @@ import Footer from "../components/footer";
                   '                    Detrás de cada sistema encontramos usuarios diferentes, por lo que los diseños y navegaciones deben estar pensados para dichos usuarios.\n' +
                   '                    En Kaizen diseñamos experiencias pensando en los usuarios de cada cliente, proporcionando navegaciones intuitivas que hacen a nuestros productos fácil de usar y adoptar.\n' +
                   '                    Prototipamos junto a nuestros clientes para podamos ir construyendo codo a codo un producto acorde a cada necesidad de caso.'}
-                  img={'./UxUI.svg'}
+                  img={'./UXUI.svg'}
 
                   order={'service xl:order-last lg:order-last  sm:w-full  lg:w-10/12  md:-mt-16 md:h-60 lg:-mt-14 md:h-52 md:-mt-24 lg:h-60 xl:h-5/6  bg-opacity-20 rounded-full bg-illuminatingYellow pointer-events-none transform'}
               />
@@ -60,7 +60,7 @@ import Footer from "../components/footer";
                   title={'Desarrollo de Software'}
                   description={'Trabajamos sobre diferentes tecnologías para poder cumplir exactamente con las necesidades de nuestros clientes. ' +
                   'Cubrimos desarrollos en Web, Desktop y Cloud en función de optimizar sus requerimientos y entregando un producto escalable de calidad.'}
-                  img={'./develop.svg'}
+                  img={'./Develop.svg'}
 
                   order={'xl:order-first lg:order-first md:order-first sm:w-full lg:w-10/12 h-full bg-opacity-20 md:h-52 md:-mt-10 xl:h-64 rounded-full bg-greenMonochromatic  pointer-events-none transform'}
               />
