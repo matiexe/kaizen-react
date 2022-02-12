@@ -8,7 +8,7 @@ const index = () => {
                     <div className="text-2xl lg:text-4xl xl:text-6xl tracking-1px  font-custom">
                         <h1 className="mt-2  text-blue-kai lg:mt-0 ">Quienes Somos ? </h1>
                     </div>
-                    <h2 className="text-lg lg:text-xl font-custom tracking-wide leading-9 lg:w-10/12 mt-2 lg:mt-6 text-color-gray-light">  Somos un equipo de trabajo distribuido por la República Argentina, unidos por la pasión por la tecnología y queremos tener la oportunidad de poder colaborar con vos en tus emprendimientos.Contactanos si lo que buscas es asesoramiento o consultoria informatica, gestion de proyectos de TI, desarrollos web o automatizacion de procesos</h2>
+                    <h2 className="text-lg lg:text-xl font-custom tracking-wide leading-9 lg:w-10/12 mt-2 lg:mt-6 text-color-gray-light"> Somos un equipo de trabajo distribuido por la República Argentina, unidos por la pasión por la tecnología y queremos tener la oportunidad de poder colaborar con vos en tus emprendimientos. Contáctanos si lo que buscas es asesoramiento o consultoría informática, gestión de proyectos de TI, desarrollos web o automatización de procesos</h2>
                     <button className="flex items-center relative  justify-center border-2 border-white mt-4 lg:mt-10 rounded-3xl hover:text-blue-kai hover:bg-white  hover:border-blue-kai lg:text-s, font-custom text-white  lg:p-8 bg-blue-kai " onClick={() => scroll.scrollTo(1900)}>
                         Contactanos
                         {/* <svg className="ml-8" xmlns="http://www.w3.org/2000/svg" width={26} height={17} viewBox="0 0 26 17" fill="none">

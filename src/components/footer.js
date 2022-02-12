@@ -37,7 +37,7 @@ const footer = () => {
 
                 <div className="flex py-6  w-full lg:w-auto flex-wrap justify-center">
                     <ul className="flex items-center space-x-4">
-                        <NavLink to="/bolsa"><a className=" hover:text-blue-400 font-custom ">Bolsa de Trabajo</a></NavLink>
+                        <NavLink to="/bolsadetrabajo"><a className=" hover:text-blue-400 font-custom ">Bolsa de Trabajo</a></NavLink>
                         <NavLink to="/services"><a className=" hover:text-red-500 font-custom ">Servicio</a></NavLink>
                         <NavLink to="/equipo"><a className=" hover:text-orange-400 font-custom" >Equipo</a></NavLink>
                     </ul>
