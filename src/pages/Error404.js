@@ -10,8 +10,7 @@ export const Error404 = () => {
           </header>
 
           <p class="max-w-sm mb-5 leading-5 md:leading-7">
-              No te procupes todos cometemos errores.A continuacion
-              te invitamos a buscar en nuestro inicio
+          No te procupes, todos cometemos errores. A continuación, te invitamos a volver a nuestro inicio
           </p>
           <NavLink to='/'>
           <button
