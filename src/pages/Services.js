@@ -68,8 +68,8 @@ import Footer from "../components/footer";
                   title={'Implementación de sistemas Open Source'}
                   description={'Realizamos la implementación de sistemas desarrollados por terceros para que como cliente pueda utilizarlo, tanto en instalaciones propias como alojadas en nuestros equipo, para proveerlas como servicio a consumidor final.' +
                   '                    '}
-                  img={'./Devops.svg'}
-                  order={'xl:order-last lg:order-last sm:w-full lg:w-10/12  lg:-mt-14  lg:h-60 md:h-52 md:-mt-24  xl:h-5/6  bg-opacity-20 rounded-full  bg-classicBlue pointer-events-none transform'}
+                  img={'./DevOpsKaizen IT.jpg'}
+                  order={'xl:order-last lg:order-last sm:w-full lg:w-10/12  lg:-mt-14  lg:h-60 md:h-52 md:-mt-24  xl:h-5/6  bg-opacity-20 rounded-full border-2  bg-classicBlue pointer-events-none transform'}
               />
              <Service
                 title={'Dirección de Proyectos para desarrollar páginas web: LLave en Mano - (Turnkey IT project managment)'}

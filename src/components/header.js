@@ -30,7 +30,7 @@ const Header = () => {
                         {nav && (
                                 <ul id="list" className=" py-2  border-r bg-white w-full absolute rounded top-0 left-0 right-0 shadow mt-20 md:px-4 md:mt-20 z-20">
                                     <li className="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-blue-kai focus:text-blue-kai focus:outline-none">
-                                        <a href="/bolsa">
+                                        <a href="/bolsadetrabajo">
                                             <span className="ml-2 font-bold">Bolsa de Trabajo</span>
                                         </a>
                                     </li>
@@ -45,6 +45,11 @@ const Header = () => {
                                         <a href="/equipo">
                                             <span className="ml-2 font-bold">Equipo</span>
                                         </a>
+                                    </li>
+                                    <li className=" cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-blue-kai flex items-center focus:text-blue-kai focus:outline-none">
+                                    <a  target="_blank" href="https://learn.kaizenitrg.com/">
+                                            <span className="ml-2 font-bold">E-Learning</span>
+                                    </a>
                                     </li>
                                     <li  className=" flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-blue-kai focus:text-blue-kai focus:outline-none flex justify-center">
                                         <a href="#">
@@ -73,7 +78,7 @@ const Header = () => {
                         <div className="hidden sm:block sm:ml-6">
                             <div className="flex space-x-4">
 
-                                <NavLink className="text-gray-700  hover:text-blue-400 px-3 py-4 rounded-md text-lg font-medium" to="/bolsa">
+                                <NavLink className="text-gray-700  hover:text-blue-400 px-3 py-4 rounded-md text-lg font-medium" to="/bolsadetrabajo">
                                 Bolsa de Trabajo
                                 </NavLink>
                                 <NavLink className="text-gray-700 hover:text-redNaphtol px-3 py-4 rounded-md text-lg font-medium" to="/services">
@@ -82,6 +87,9 @@ const Header = () => {
                                 <NavLink className="text-gray-700 hover:text-orange-400 px-3 py-4 rounded-md text-lg font-medium" to="/equipo">
                                         Equipo
                                 </NavLink>
+                                <a  target="_blank" href="https://learn.kaizenitrg.com/" className="text-gray-700 hover:text-orange-400 px-3 py-4 rounded-md text-lg font-medium" >
+                                         <span className="ml-2 font-medium">E-Learning</span>
+                                </a>
 
                             </div>
                         </div>

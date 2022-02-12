@@ -56,7 +56,7 @@ const footer = () => {
                             ></path>
                         </svg>
                     </a>
-                    <a target="_blank" href="https://twitter.com/home" className="ml-3">
+                    <a target="_blank" href="https://twitter.com/KaizenITnow" className="ml-3">
                         <svg
                             fill="currentColor"
                             strokeLinecap="round"
@@ -103,10 +103,13 @@ const footer = () => {
                 </div>
                 <div className="flex items-center py-6 my-4 lg:my-0">
                     <form className="flex cursor-pointer flex-wrap items-center justify-center">
-                        <button type="button" className=" px-6 py-2 text-white bg-red-500  border-0 rounded focus:outline-none font-custom hover:bg-red-700" onClick={() => scroll.scrollTo(6000)}>Contactenos</button>
+                        <button type="button" className=" px-6 py-2 text-white bg-red-500  border-0 rounded focus:outline-none font-custom hover:bg-red-700" onClick={() => scroll.scrollTo(1900)}>Contactenos</button>
                     </form>
                 </div>
 
+            </div>
+            <div className="bg-color-gray py-5">
+                <h1 className="text-base text-color-gray-light text-center">Kaizen IT © - 2021-{new Date().getUTCFullYear()}</h1>
             </div>
         </footer>
         // <>

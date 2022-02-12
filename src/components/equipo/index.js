@@ -8,13 +8,13 @@ const Tabs = ({ color }) => {
       <div className="flex pt-2 flex-wrap">
         <div className="w-full px-3">
           <ul
-            className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
+            className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row pb-2"
             role="tablist"
           >
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
-                  "text-lg font-custom text-blue-kai uppercase px-10 py-6 hover:text-blue-400 hover:border-b-2 hover:border-blue-400 border-gray-600 rounded block leading-normal " +
+                  "text-lg font-custom text-blue-kai uppercase px-10 py-6 border-b-2 border-white hover:text-blue-400  hover:border-blue-400 border-gray-600 rounded block leading-normal " +
                   (openTab === 1
                     ? "text-blue-400 border-b-blue-400 shadow-lg  shadow-blue-400 bg-" + color + "-600"
                     : "text-" + color + "-600 bg-white")
@@ -33,7 +33,7 @@ const Tabs = ({ color }) => {
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
-                  "text-lg font-custom text-blue-kai uppercase px-10 py-6 hover:border-b-2 hover:text-redNaphtol hover:border-redNaphtol border-gray-600 rounded block leading-normal " +
+                  "text-lg font-custom text-blue-kai uppercase px-10 py-6 border-b-2  border-white hover:text-redNaphtol hover:border-redNaphtol border-gray-600 rounded block leading-normal " +
                   (openTab === 2
                     ? "text-redNaphtol shadow-lg shadow-redNaphtol border-redNaphtol bg-" + color + "-600"
                     : "text-" + color + "-600 bg-white")
@@ -49,10 +49,10 @@ const Tabs = ({ color }) => {
                  Nuestros Valores
               </a>
             </li>
-            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center ">
               <a
                 className={
-                  "text-lg font-custom uppercase text-blue-kai  px-10 py-6  hover:border-b-2 border-gray-600  hover:text-orange-400 hover:border-orange-400 rounded block leading-normal " +
+                  "text-lg font-custom uppercase text-blue-kai  px-10 py-6 border-b-2 border-white   hover:text-orange-400 hover:border-orange-400 rounded block leading-normal " +
                   (openTab === 3
                     ? "text-orange-400 border-orange-400 shadow-lg shadow-orange-400 bg-" + color + "-600"
                     : "text-" + color + "-600 bg-white")
@@ -71,9 +71,9 @@ const Tabs = ({ color }) => {
           </ul>
           <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6  rounded">
             <div className="px-4 py-5 flex-auto">
-              <div className="tab-content tab-space">
-                <div className={openTab === 1 ? "block" : "hidden"} id="link1">
-                  <motion.div className="bg-white  "
+              <div className="tab-content tab-space pt-2">
+                <div className={openTab === 1 ? "block" : "hidden" } id="link1">
+                  <motion.div className="bg-white pt-2  "
                     animate={{ y: -10 }}
                     initial={{y: 40 }}
                     transition={{ delay: 0.3, type: "spring", stiffness: 50  }}
@@ -97,7 +97,7 @@ const Tabs = ({ color }) => {
         </motion.div>
                 </div>
                 <div className={openTab === 2 ? "block" : "hidden"} id="link2">
-                <motion.div className="bg-white  "
+                <motion.div className="bg-white pt-2  "
                     animate={{ y: -10 }}
                     initial={{y: 40 }}
                     transition={{ delay: 0.3, type: "spring", stiffness: 50  }}
@@ -126,7 +126,7 @@ const Tabs = ({ color }) => {
         </motion.div>
                 </div>
                 <div className={openTab === 3 ? "block" : "hidden"} id="link3">
-                <motion.div className="bg-white  "
+                <motion.div className="bg-white pt-2  "
                     animate={{ y: -10 }}
                     initial={{y: 40 }}
                     transition={{ delay: 0.3, type: "spring", stiffness: 50  }}

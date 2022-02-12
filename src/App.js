@@ -14,6 +14,7 @@ import Services from "./pages/Services";
 import Header from './components/header';
 import { Equipo } from './pages/Equipo';
 import { Error404 } from './pages/Error404';
+import {Bolsadetrabajo} from './pages/Bolsadetrabajo';
 import { FloatingButton, Item } from "react-floating-button";
 import whatsapp from "./asset/whatsapp.svg"
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/equipo" element={<Equipo />} />
+        <Route path="/bolsadetrabajo" element={<Bolsadetrabajo />} />
          {/*
         <Route path="/users/*" element={<UserPage />} />
         <Route path="/users" element={<UsersPage />} />

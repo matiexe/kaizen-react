@@ -1,4 +1,5 @@
 import React from "react";
+import {  DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 const index = () => {
     return (
         <div className="px-6  xl:px-0" >
@@ -8,7 +9,7 @@ const index = () => {
                         <h1 className="mt-2  text-blue-kai lg:mt-0 ">Quienes Somos ? </h1>
                     </div>
                     <h2 className="text-lg lg:text-xl font-custom tracking-wide leading-9 lg:w-10/12 mt-2 lg:mt-6 text-color-gray-light">  Somos un equipo de trabajo distribuido por la República Argentina, unidos por la pasión por la tecnología y queremos tener la oportunidad de poder colaborar con vos en tus emprendimientos.Contactanos si lo que buscas es asesoramiento o consultoria informatica, gestion de proyectos de TI, desarrollos web o automatizacion de procesos</h2>
-                    <button className="flex items-center relative focus:outline-none justify-center mt-5 lg:mt-10 hover:text-blue-kai hover:bg-white hover:border-2 hover:border-blue-kai lg:text-xl font-medium text-white p-4 lg:p-8 bg-blue-kai rounded-3xl">
+                    <button className="flex items-center relative  justify-center border-2 border-white mt-4 lg:mt-10 rounded-3xl hover:text-blue-kai hover:bg-white  hover:border-blue-kai lg:text-s, font-custom text-white  lg:p-8 bg-blue-kai " onClick={() => scroll.scrollTo(1900)}>
                         Contactanos
                         {/* <svg className="ml-8" xmlns="http://www.w3.org/2000/svg" width={26} height={17} viewBox="0 0 26 17" fill="none">
                             <path d="M1.33333 8.6665H24.6667" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
