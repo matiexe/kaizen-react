@@ -49,7 +49,7 @@ const index = () => {
                      
                    </div>
                  </div>
-                 {/* <div                  
+                 {<div                  
                    className="pl-2 xl:w-1/4 sm:w-5/12 sm:max-w-xs relative mb-32 lg:mb-20
                          xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105"       
                >
@@ -68,7 +68,7 @@ const index = () => {
                      </a>    
                    
                    </div>
-                 </div>           */}
+                 </div>           }
                  <div
                    
                    className="pl-2 xl:w-1/4 sm:w-5/12 sm:max-w-xs relative mb-32 lg:mb-20
