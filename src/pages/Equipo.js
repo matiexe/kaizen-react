@@ -194,7 +194,7 @@ export const Equipo = () => {
                       </div>
                         <div className="w-48 m-4 py-2 bg-white shadow-lg">
 
-                        <img className="w-24 h-24 mx-auto rounded-full" src="francisco.jpg" />
+                        <img className="w-24 h-24 mx-auto rounded-full" src="fran.jpg" />
                
                         <p className="mx-2 mt-2 text-center text-lg text-gray-700 font-custom font-semibold">Francisco Estrada</p>
                
