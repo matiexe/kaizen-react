@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 const  Service = ({title, description, img, list, order }) =>  {
 
     console.log(img)
-    if (img === './DevOpsKaizen IT.jpg')
+    if (img === './DevOpsKaizen IT.jpg' && title === 'Implementación de sistemas Open Source')
     {
         return(
         <motion.div className="bg-white  "
