@@ -1,5 +1,21 @@
 import React from 'react'
 const index = () => {
+    function redirigircluster()
+    {
+        window.location.assign('https://citargentina.org/');
+    }
+    function redirigirasistec()
+    {
+        window.location.assign('https://assistec.com.ar/');
+    }
+    function redirigircluster2()
+    {
+        window.location.assign('https://clustertecnologicosantacruz.com.ar/');
+    }
+    function redirigirmicrosysy()
+    {
+        window.location.assign('http://www.microsis.com.ar/');
+    }
     return (
         <>
               <div className="bg-white px-4 xl:px-0 py-16 ">
@@ -30,7 +46,7 @@ const index = () => {
                                 </div>
                             </div> */}
                             <div className="xl:w-1/4 sm:w-5/12 sm:max-w-xs relative mb-32 lg:mb-20
-                         xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105"       
+                         xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105" onClick={() => redirigircluster()}     
                >
                 <div className="h-64 z-20">
                      <img
@@ -49,9 +65,9 @@ const index = () => {
                      
                    </div>
                  </div>
-                 {<div                  
+                 <div                  
                    className="pl-2 xl:w-1/4 sm:w-5/12 sm:max-w-xs relative mb-32 lg:mb-20
-                         xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105"       
+                         xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105"  onClick={() => redirigirmicrosysy() }    
                >
                 <div className="h-64 z-20">
                      <img
@@ -68,11 +84,11 @@ const index = () => {
                      </a>    
                    
                    </div>
-                 </div>           }
+                 </div>          
                  <div
                    
                    className="pl-2 xl:w-1/4 sm:w-5/12 sm:max-w-xs relative mb-32 lg:mb-20
-                         xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105"       
+                         xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105"  onClick={() => redirigirasistec()}     
                >
                 <div className="h-64 z-20">
                      <img
@@ -92,7 +108,7 @@ const index = () => {
                  <div
                    
                    className=" pl-2 xl:w-1/4 sm:w-5/12 sm:max-w-xs relative mb-32 lg:mb-20
-                         xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105"       
+                         xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105"   onClick={() => redirigircluster2()}    
                >
                 <div className="bg-gray h-64 z-20">
                      <img

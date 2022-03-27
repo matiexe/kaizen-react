@@ -30,25 +30,6 @@ const Tabs = ({ color }) => {
                 Nuestra mision
               </a>
             </li>
-            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
-              <a
-                className={
-                  "text-lg font-custom text-blue-kai uppercase px-10 py-6 border-b-2  border-white hover:text-redNaphtol hover:border-redNaphtol border-gray-600 rounded block leading-normal " +
-                  (openTab === 2
-                    ? "text-redNaphtol shadow-lg shadow-redNaphtol border-redNaphtol bg-" + color + "-600"
-                    : "text-" + color + "-600 bg-white")
-                }
-                onClick={e => {
-                  e.preventDefault();
-                  setOpenTab(2);
-                }}
-                data-toggle="tab"
-                href="#link2"
-                role="tablist"
-              >
-                 Nuestros Valores
-              </a>
-            </li>
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center ">
               <a
                 className={
@@ -68,6 +49,29 @@ const Tabs = ({ color }) => {
                  Nuestros objetivos
               </a>
             </li>
+
+
+
+            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+              <a
+                className={
+                  "text-lg font-custom text-blue-kai uppercase px-10 py-6 border-b-2  border-white hover:text-redNaphtol hover:border-redNaphtol border-gray-600 rounded block leading-normal " +
+                  (openTab === 2
+                    ? "text-redNaphtol shadow-lg shadow-redNaphtol border-redNaphtol bg-" + color + "-600"
+                    : "text-" + color + "-600 bg-white")
+                }
+                onClick={e => {
+                  e.preventDefault();
+                  setOpenTab(2);
+                }}
+                data-toggle="tab"
+                href="#link2"
+                role="tablist"
+              >
+                 Nuestros Valores
+              </a>
+            </li>
+
           </ul>
           <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6  rounded">
             <div className="px-4 py-5 flex-auto">
@@ -83,7 +87,7 @@ const Tabs = ({ color }) => {
                     <h2 className="xl:text-xl md:text-xl lg:text-xl font-custom tracking-tight text-classicBlue sm:text-xl  text-lg">
                         Nuestra Mision
                     </h2>
-                    <p className=" mt-4 text-gray-500 text-justify font-custom text-sm">Contribuir en la formación de recursos humanos en lo referente al trabajo en equipo, inculcando los valores de transparencia y compromiso. Brindar digitalización y mejoras a los procesos internos de los organismos públicos y privados a través de nuestros productos y servicios, haciéndolos más ágiles y eficientes, y acompañándolos en el proceso de transformación digital.</p>
+                    <p className=" mt-4 text-gray-500 text-justify font-custom text-base">Contribuir en la formación de recursos humanos en lo referente al trabajo en equipo, inculcando los valores de transparencia y compromiso. Brindar digitalización y mejoras a los procesos internos de los organismos públicos y privados a través de nuestros productos y servicios, haciéndolos más ágiles y eficientes, y acompañándolos en el proceso de transformación digital.</p>
 
                 </div>
                 <div className="service xl:order-last lg:order-last  sm:w-full  lg:w-10/12  md:-mt-16 md:h-60 lg:-mt-14 md:h-52 md:-mt-24 lg:h-60 xl:h-5/6  bg-opacity-20 rounded-full bg-illuminatingYellow pointer-events-none transform">
@@ -107,12 +111,11 @@ const Tabs = ({ color }) => {
                     <h2 className="xl:text-xl md:text-xl lg:text-xl font-custom tracking-tight text-classicBlue sm:text-xl  text-lg">
                         Nuestros Valores
                     </h2>
-                    <p className=" mt-4 text-gray-500 text-justify font-custom text-sm">Sustentan la misión y el objetivo del emprendimiento: Excelencia, colaboración, ética y compromiso.</p>
-                    <p className=" mt-4 text-gray-500 text-justify font-custom text-sm">Nuestro plan es: </p>
+                    <p className=" mt-4 text-gray-500 text-justify font-custom text-base">Sustentan la misión y el objetivo del emprendimiento:</p>
                     <ul class="list-disc">
-                    <li className=" mt-4 text-gray-500 text-justify font-custom text-sm" >Fomentar e Impulsar la Formación de Talento IT.</li>
-                    <li className=" mt-4 text-gray-500 text-justify font-custom text-sm">Fomentar y colaborar en la Modernización Privada y Estatal.</li>
-                    <li className=" mt-4 text-gray-500 text-justify font-custom text-sm">Constituir la base de datos del Ecosistema Tecnológico en Santa Cruz e impulsarlo.</li>
+                    <li className=" mt-4 text-gray-500 text-justify font-custom text-base" >Excelencia.</li>
+                    <li className=" mt-4 text-gray-500 text-justify font-custom text-base">Colaboración.</li>
+                    <li className=" mt-4 text-gray-500 text-justify font-custom text-base">Ética y compromiso.</li>
                     </ul>
                 </div>
                 <div className="service xl:order-last lg:order-last  sm:w-full  lg:w-10/12  md:-mt-16 md:h-60 lg:-mt-14 md:h-52 md:-mt-24 lg:h-60 xl:h-5/6  bg-opacity-20 rounded-full bg-illuminatingYellow pointer-events-none transform">
@@ -136,14 +139,14 @@ const Tabs = ({ color }) => {
                     <h2 className="xl:text-xl md:text-xl lg:text-xl font-custom tracking-tight text-classicBlue sm:text-xl  text-lg">
                         Nuestros Objetivos
                     </h2>
-                    <p className=" mt-4 text-gray-500 text-justify font-custom text-sm">Consolidarnos como empresa de productos y servicios en lo referente a la tecnología informática, generando un impacto positivo tanto en nuestros clientes como en nuestros colaboradores a través de los proyectos que se realizan y conllevan. Contribuir a la sociedad formando más talento IT para que puedan insertarse en el mercado laboral.</p>
+                    <p className=" mt-4 text-gray-500 text-justify font-custom text-base">Consolidarnos como empresa de productos y servicios en lo referente a la tecnología informática, generando un impacto positivo tanto en nuestros clientes como en nuestros colaboradores a través de los proyectos que se realizan y conllevan. Contribuir a la sociedad formando más talento IT para que puedan insertarse en el mercado laboral.</p>
 
                 </div>
-                <div className="service xl:order-last lg:order-last  sm:w-full  lg:w-10/12  md:-mt-16 md:h-60 lg:-mt-14 md:h-52 md:-mt-24 lg:h-60 xl:h-5/6  bg-opacity-20 rounded-full bg-illuminatingYellow pointer-events-none transform">
+                <div className="service xl:order-last lg:order-last  sm:w-full  lg:w-10/12  md:-mt-16 md:h-60 lg:-mt-14 md:h-52 md:-mt-24 lg:h-60 xl:h-5/6  bg-opacity-20 rounded-full  pointer-events-none transform">
                     <img
                         src="./objetivos.jpg"
                         alt="Objetivos."
-                        className=" rounded-lg transform " width="500" height="600"
+                        className=" rounded-lg transform ml-4 mb-4" width="400" height="600"
                     />
                 </div>
             </div>
@@ -156,7 +159,7 @@ const Tabs = ({ color }) => {
       </div>
     </>
   );
-};
+}
 
 const index = () => {
 
@@ -164,7 +167,7 @@ const index = () => {
 
     return (
         <>
- <Tabs color="amber" />;
+ <Tabs color="amber" />
 </>
   );
 }

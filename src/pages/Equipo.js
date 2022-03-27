@@ -13,13 +13,13 @@ export const Equipo = () => {
   return (
   <>   
 <main className=" mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-      <div className=" grid md:grid-cols-2 gap-x-4 sm:px-6 sm:text-left md:text-left lg:text-left">
+<div className=" grid md:grid-cols-2 gap-x-4 sm:px-6 sm:text-left md:text-left lg:text-left">
           <div>
               <h1 className=" tracking-tight font-custom  text-gray-900 text-3xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl ">
                   <span className=" title-container font-custom block xl:inline">Nuestro Equipo</span>
               </h1>
               <p className="mt-3 text-base font-custom text-gray-500 sm:mt-5 sm:text-sm sm:mx-auto md:max-w-xl lg:max-w-xl md:mt-5 md:text-lg lg:mx-0">
-                 Conoce a quienes nos representan y tienen como objetivo darte soluciones
+              ¡Hola! Somos una red de colaboradores. Nos conformamos el 13 de febrero de 2021. Surgimos como un espacio destinado a realizar lo que nos gusta hacer y nos permite crecer profesionalmente. Cada uno de nuestros integrantes ya se encuentra en relación de dependencia con un empleador, y así como se coordinan los afteroffice, los asados, o los turnos de fútbol, a nosotros nos unió esta idea.
               </p>
               <div className=" inline-flex gap-1 ">
                     <button className="flex items-center relative h-1 focus:outline-none justify-center mt-5 lg:mt-10 md:p-12 hover:text-blue-kai hover:bg-white hover:border-2 hover:border-blue-kai lg:text-sm font-custom text-white p-4 lg:p-6 bg-blue-kai rounded-3xl"
@@ -157,23 +157,7 @@ export const Equipo = () => {
                         </div>
                       </div>
 
-                      <div className="w-48 m-4 py-2 bg-white shadow-lg">
 
-                        <img className="w-24 h-24 mx-auto rounded-full" src="Urra.jpg" />
-               
-                        <p className="mx-2 mt-2 text-center text-lg text-gray-700 font-custom font-semibold">Matias Urra</p>
-               
-                        <p className="text-center font-custom text-gray-500">Front/Back-End Developer</p>
-               
-                        <div className="flex justify-center items-center mt-2">
-               
-                        <a target="_blank" href="https://www.linkedin.com/in/murra/" className="w-8 h-8">
-                         <button className="bg-blue-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1 hover:bg-white hover:text-orange-500 hover:border-2 hover:border-orange-500" type="button">
-                             <i className="fab fa-linkedin"></i>
-                           </button>
-                         </a>
-                        </div>
-                      </div>
                       
                      <div className="w-48 m-4 py-2 bg-white shadow-lg">
 
@@ -249,6 +233,24 @@ export const Equipo = () => {
                          </a>
                         </div>
                       </div>
+
+                      <div className="w-48 m-4 py-2 bg-white shadow-lg">
+
+<img className="w-24 h-24 mx-auto rounded-full" src="lucas.jpg" />
+
+<p className="mx-2 mt-2 text-center text-lg text-gray-700 font-custom font-semibold">Lucas Pirito</p>
+
+<p className="text-center font-custom text-gray-500">Back-End Developer</p>
+
+<div className="flex justify-center items-center mt-2">
+
+<a target="_blank" href="https://www.linkedin.com/in/lucas-pirito/" className="w-8 h-8">
+ <button className="bg-blue-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1 hover:bg-white hover:text-orange-500 hover:border-2 hover:border-orange-500" type="button">
+     <i className="fab fa-linkedin"></i>
+   </button>
+ </a>
+</div>
+</div>
                       
                </>
 
@@ -259,23 +261,24 @@ export const Equipo = () => {
                case 'Colaboradores':
                    return (
                     <>
-                    <div className="w-48 m-4 py-2 bg-white shadow-lg">
 
-                    <img className="w-24 h-24 mx-auto rounded-full" src="lucas.jpg" />
-           
-                    <p className="mx-2 mt-2 text-center text-lg text-gray-700 font-custom font-semibold">Lucas Pirito</p>
-           
-                    <p className="text-center font-custom text-gray-500">Back-End Developer</p>
-           
-                    <div className="flex justify-center items-center mt-2">
-           
-                    <a target="_blank" href="https://www.linkedin.com/in/lucas-pirito/" className="w-8 h-8">
-                     <button className="bg-blue-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1 hover:bg-white hover:text-orange-500 hover:border-2 hover:border-orange-500" type="button">
-                         <i className="fab fa-linkedin"></i>
-                       </button>
-                     </a>
-                    </div>
-                  </div>
+                  <div className="w-48 m-4 py-2 bg-white shadow-lg">
+
+                        <img className="w-24 h-24 mx-auto rounded-full" src="Urra.jpg" />
+
+                        <p className="mx-2 mt-2 text-center text-lg text-gray-700 font-custom font-semibold">Matias Urra</p>
+
+                        <p className="text-center font-custom text-gray-500">Front/Back-End Developer</p>
+
+                        <div className="flex justify-center items-center mt-2">
+
+                        <a target="_blank" href="https://www.linkedin.com/in/murra/" className="w-8 h-8">
+                        <button className="bg-blue-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1 hover:bg-white hover:text-orange-500 hover:border-2 hover:border-orange-500" type="button">
+                            <i className="fab fa-linkedin"></i>
+                          </button>
+                        </a>
+                        </div>
+                        </div>
 
                 <div className="w-48 m-4 py-2 bg-white shadow-lg">
 

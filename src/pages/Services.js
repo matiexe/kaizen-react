@@ -10,10 +10,10 @@ import Footer from "../components/footer";
   <main className=" mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
       <div className=" grid md:grid-cols-2 gap-x-4 sm:px-6 sm:text-left md:text-left lg:text-left">
           <div>
-              <h1 className=" tracking-tight font-extrabold  text-gray-900 text-3xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl ">
+              <h1 className=" tracking-tight font-custom  text-gray-900 text-3xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl ">
                   <span className=" title-container block xl:inline">Servicios que Proporcionamos</span>
               </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-sm sm:mx-auto md:max-w-xl lg:max-w-xl md:mt-5 md:text-lg lg:mx-0">
+              <p className="mt-3 text-base font-custom text-gray-500 sm:mt-5 sm:text-sm sm:mx-auto md:max-w-xl lg:max-w-xl md:mt-5 md:text-lg lg:mx-0">
                   Nuestro conocimiento y experiencia pueden hacer que los datos funcionen para usted,
                   ya sea que esté haciendo crecer un negocio,
                   comercializando una campaña o analizando sus fuentes de datos existentes.
@@ -60,7 +60,7 @@ import Footer from "../components/footer";
                   title={'Desarrollo de Software'}
                   description={'Trabajamos sobre diferentes tecnologías para poder cumplir exactamente con las necesidades de nuestros clientes. ' +
                   'Cubrimos desarrollos en Web, Desktop y Cloud en función de optimizar sus requerimientos y entregando un producto escalable de calidad.'}
-                  img={'./Develop.svg'}
+                  img={'./DevOpsKaizen IT.jpg'}
 
                   order={'xl:order-first lg:order-first md:order-first sm:w-full lg:w-10/12 h-full bg-opacity-20 md:h-52 md:-mt-10 xl:h-64 rounded-full bg-greenMonochromatic  pointer-events-none transform'}
               />
@@ -68,13 +68,13 @@ import Footer from "../components/footer";
                   title={'Implementación de sistemas Open Source'}
                   description={'Realizamos la implementación de sistemas desarrollados por terceros para que como cliente pueda utilizarlo, tanto en instalaciones propias como alojadas en nuestros equipo, para proveerlas como servicio a consumidor final.' +
                   '                    '}
-                  img={'./DevOpsKaizen IT.jpg'}
+                  img={'./UXUI.svg'}
                   order={'xl:order-last lg:order-last sm:w-full lg:w-10/12  lg:-mt-14  lg:h-60 md:h-52 md:-mt-24  xl:h-5/6  bg-opacity-20 rounded-full border-2  bg-classicBlue pointer-events-none transform'}
               />
              <Service
                 title={'Dirección de Proyectos para desarrollar páginas web: LLave en Mano - (Turnkey IT project managment)'}
                 description={'El servicio de dirección de proyectos llave en mano garantiza la realización de un proyecto de inicio a fin, desde el análisis de requisitos, definición del alcance, cronograma y presupuesto, hasta el desarrollo del entregable final, aprobación por todas las partes pertinentes, y cierre formal del proyecto.'}
-                 img={'./UXUI.svg'}
+                 img={'./Imagen Dirección de Proyectos.jpeg'}
                  order={'xl:order-first lg:order-first md:order-first sm:w-full lg:w-10/12 h-full  bg-opacity-20 rounded-full bg-redNaphtol  pointer-events-none transform'}
               />
           </div>

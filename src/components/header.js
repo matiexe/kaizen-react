@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {  DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import { NavLink } from "react-router-dom";
+import logo from "../asset/logo.png"
 
 const Header = () => {
     const [nav, setNav] = useState(false);
@@ -16,12 +17,12 @@ const Header = () => {
                         <button type="button"  onClick={() => setNav(!nav)}
                                 className="inline-flex items-center  justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                                 aria-controls="mobile-menu" aria-expanded="false">
-                            <svg className="block h-6 w-6" xmlns="./assets/logo.svg" fill="none" viewBox="0 0 24 24"
+                            <svg className="block h-12 w-12" xmlns="./assets/logo.svg" fill="none" viewBox="0 0 24 24"
                                  stroke="currentColor" aria-hidden="true">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                                       d="M4 6h16M4 12h16M4 18h16"/>
                             </svg>
-                            <svg className="hidden h-6 w-6" xmlns="./assets/logo.svg" fill="none" viewBox="0 0 24 24"
+                            <svg className="hidden h-6 w-6 " xmlns="./assets/logo.svg" fill="none" viewBox="0 0 24 24"
                                  stroke="currentColor" aria-hidden="true">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                                       d="M6 18L18 6M6 6l12 12"/>
@@ -64,14 +65,14 @@ const Header = () => {
                         <div className="flex-shrink-0 flex items-center">
                             <NavLink to={"/"}>
                                 <button className={"flex-1 flex "} >
-                                    <img className="block w-14 lg:hidden h-12 w-auto"
-                                         src="/logo.svg" alt="Workflow"/>
-                                    <img className="hidden w-14  lg:block h-12 w-auto"
-                                         src="/logo.svg"
+                                    <img className="block w-18 h-16 lg:hidden "
+                                         src={logo} alt="Workflow"/>
+                                    <img className="hidden w-18 h-16  lg:block "
+                                         src={logo}
                                          alt="Workflow"/>
-                                    <span className="hidden lg:block text-2xl w-28 h-7 py-2 font-custom">Kaizen IT</span>
+                                    <span className="hidden lg:block text-2xl w-28 h-7 py-4 font-custom">Kaizen IT</span>
 
-                                    <span className="block lg:hidden text-2xl w-28 h-7 py-2 font-custom">Kaizen IT</span>
+                                    <span className="block lg:hidden text-2xl w-28 h-7 py-4 mr-24 font-custom">Kaizen IT</span>
                                 </button>
                             </NavLink>
                         </div>

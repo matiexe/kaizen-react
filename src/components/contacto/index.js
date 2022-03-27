@@ -17,7 +17,7 @@ const index = () => {
 
                             </div>
                             <h1 className="pr-2 mt-8 text-white text-2xl lg:text-5xl font-custom tracking-1px lg:w-10/12  leading-9">Contactanos</h1>
-                            <p className="w-10/12 lg:w-7/12 leading-8 text-white sm:text-white  md:text-white xl:text-gray-600 font-semibold mt-5 mb-12">Envianos tus consultas o programa una reunion con nosotros a través de Calendly!</p>
+                            <p className="w-10/12 lg:w-7/12 pt-12 leading-8 text-white sm:text-white  md:text-white xl:text-gray-600 font-semibold mt-5 mb-12">Envianos tus consultas o programa una reunion con nosotros a través de Calendly!</p>
                         </div>
           
                         <div className="lg:flex justify-items-center space-x-4   ">

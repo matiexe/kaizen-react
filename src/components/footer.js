@@ -1,6 +1,7 @@
 import react from "react";
 import {NavLink} from "react-router-dom"
 import {animateScroll as scroll} from "react-scroll";
+import logo from "../asset/logo.png"
 
 const footer = () => {
     return (
@@ -10,13 +11,13 @@ const footer = () => {
                 <div className="flex-shrink-0 grid col-2 pt-4  w-full lg:w-auto justify-center flex items-center">
                     <NavLink to={"/"}>
                         <button className={"flex-1 flex"}>
-                            <img className="block w-14 justify-center lg:hidden h-16 w-auto"
-                                 src="/logo.svg" alt="Workflow"/>
-                            <img className="hidden w-14 lg:block h-16 w-auto"
-                                 src="/logo.svg"
+                            <img className="block w-20  h-20 justify-center lg:hidden "
+                                 src={logo} alt="Workflow"/>
+                            <img className="hidden w-20 h-15 lg:block"
+                                 src={logo}
                                  alt="Workflow"/>
-                            <span className="hidden lg:block justify-center text-4xl h-7 py-3 pl-2 font-custom">Kaizen IT</span>
-                            <span className="block lg:hidden justify-centers text-3xl h-7 py-3 pl-2 font-custom">Kaizen IT</span>
+                            <span className="hidden lg:block justify-center text-4xl h-7 py-8 pl-2 font-custom">Kaizen IT</span>
+                            <span className="block lg:hidden justify-centers text-3xl h-7 py-8 pl-2 font-custom">Kaizen IT</span>
                         </button>
                     </NavLink>
                     <div className="grid flex pt-2 items-center justify-center ">

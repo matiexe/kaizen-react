@@ -89,7 +89,7 @@ export default function services() {
             </div>
             <div className=" py-20">
                 <div className="inset-x-0 z-0 top-0 py-20 sm:py-20 md:py-20  lg:py-28 bg-classicBlue  -mt-14   "></div>
-                <div className="inset-x-0 z-0 top-0 py-20 sm:py-20 md:py-20  lg:py-44 bg-classicBlue  -mt-28 rotate-3   "></div>
+                <div className="inset-x-0 z-0 top-0 py-20 sm:py-20 md:py-20  lg:py-44 bg-classicBlue  -mt-28    "></div>
                 <Contacto />
             </div>
             <Footer/>
