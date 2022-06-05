@@ -4,6 +4,7 @@ import Alianzas from "../components/alianzas/index"
  import Equipo from "../components/equipo/index"
  import Contacto from "../components/contacto/index"
 import Footer from "../components/footer"
+import Testimonial from "../components/testimonials/index";
 
  const Home = () => {
   return (
@@ -15,8 +16,8 @@ import Footer from "../components/footer"
     
     <Hero />
     <Equipo/>
+    <Testimonial/>
     <Alianzas />
-     
     <div className=" py-20">
         <div className="inset-x-0 z-0 top-0 py-20 sm:py-20 md:py-20  lg:py-28 bg-classicBlue  -mt-1   "></div>
         <div className="inset-x-0 z-0 top-0 py-20 sm:py-20 md:py-20  lg:py-44 bg-classicBlue  -mt-28   "></div>

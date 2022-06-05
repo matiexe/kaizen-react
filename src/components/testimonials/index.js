@@ -1,182 +1,61 @@
 import React from 'react'
-import { jsx, Box, Container, Heading, Text, Image } from 'theme-ui';
-import Tabs, { TabPane } from 'rc-tabs';
-import { RiCheckboxCircleFill } from 'react-icons/ri';
-import { rgba } from 'polished';
 
-//import tabImage1 from 'public/tab-illustration-1.png';
-const data = [
-    {
-      id: 1,
-      tabTitle: 'Why you choose our service?',
-      title: `We will turn your idea in the successful business model framework`,
-      description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
-      moreLink: '#explore-more',
-     
-      list: [
-        'Medical and vision',
-        'Life insurance',
-        'HSAs and FSAs',
-        'Commuter benefits',
-      ],
-    },
-    {
-      id: 2,
-      tabTitle: 'What’s our business promise?',
-      title: `We will turn your idea in the successful business model framework`,
-      description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
-      moreLink: '#explore-more',
-     
-      list: [
-        'Medical and vision',
-        'Life insurance',
-        'HSAs and FSAs',
-        'Commuter benefits',
-      ],
-    },
-    {
-      id: 3,
-      tabTitle: 'What’s our role model plan?',
-      title: `We will turn your idea in the successful business model framework`,
-      description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
-      moreLink: '#explore-more',
-      
-      list: [
-        'Medical and vision',
-        'Life insurance',
-        'HSAs and FSAs',
-        'Commuter benefits',
-      ],
-    },
-  ];
-  const styles = {
-    
-    tabs: {
-      border: 0,
-      '.rc-tabs-nav': {
-        mb: [8, null, null, 9, 10, 9, 12],
-      },
-      '.rc-tabs-nav-wrap': {
-        borderBottom: `1px solid ${rgba('#01070D', 0.1)}`,
-        justifyContent: 'center',
-      },
-      '.rc-tabs-nav-list': {
-        flexGrow: 1,
-        justifyContent: 'space-evenly',
-        pb: [3, null, null, 5, null, 6],
-      },
-      '.rc-tabs-tab-btn': {
-        outline: 0,
-        alignItems: 'center',
-        img: {
-          outline: 0,
-        },
-      },
-      '.rc-tabs-tab': {
-        backgroundColor: 'transparent',
-        // m: ['0 45px'],
-        h4: {
-          fontFamily: 'body',
-          fontSize: [0, null, null, 17, null, null, 4],
-          fontWeight: 700,
-          lineHeight: 1.5,
-          textAlign: ['center', null, null, null, 'left'],
-          whiteSpace: ['break-spaces', null, null, null, 'unset'],
-        },
-      },
-      '.rc-tabs-tabpane': {
-        display: ['flex', null, null, 'grid'],
-        flexDirection: ['column-reverse', null, null, 'unset'],
-        alignItems: 'center',
-        justifyContent: 'center',
-        gridTemplateColumns: [null, null, null, '0.9fr 1.1fr'],
-        outline: 0,
-        gap: [5, null, null, 11],
-        h2: {
-          color: 'heading',
-          fontSize: [24, null, null, 6, 26, 8, 40],
-          fontWeight: 700,
-          lineHeight: [1.45, null, null, 1.5],
-          letterSpacing: [null, null, null, '0.5px', null, '-1px'],
-          textAlign: ['center', null, null, 'left'],
-        },
-        p: {
-          color: 'textSecondary',
-          fontSize: [1, null, null, 2, 17],
-          lineHeight: [1.87, null, null, 2, 2.48],
-          textAlign: ['center', null, null, 'left'],
-          mt: [4],
-        },
-        '.list-item': {
-          fontSize: [0, null, null, 1, 2],
-          fontWeight: 500,
-          lineHeight: [2.8],
-          display: 'flex',
-          alignItems: 'center',
-        },
-      },
-    },
-    list: {
-      mt: [5],
-      display: 'grid',
-      justifyContent: ['center', null, null, 'unset'],
-      gridTemplateColumns: ['repeat(2, 164px)', null, null, 'repeat(2, 180px)'],
-    },
-    learnMore: {
-      mt: [4],
-      textAlign: ['center', null, null, 'left'],
-      a: {
-        fontSize: [null, null, null, 1, 2],
-      },
-    },
-    illustration: {
-      display: ['flex'],
-      alignItems: 'center',
-      justifyContent: 'center',
-      textAlign: [null, null, null, null, null, 'center'],
-      img: {
-        maxWidth: ['65%', null, null, '100%', null, '90%', '100%'],
-      },
-    },
-};
+
 
 const index = () => {
     return (
-        <Box as="section"  sx={styles.section}>
-        <Container>
-          <Tabs sx={styles.tabs} animated={{ tabPane: true }}>
-            {data?.map((item) => (
-              <TabPane
-                key={item.id}
-                tab={<Heading as="h4">{item.tabTitle}</Heading>}
-              >
-                <Box>
-                  <Heading>{item.title}</Heading>
-                  <Text as="p" sx={styles.description}>
-                    {item.description}
-                  </Text>
-                  <Box sx={styles.list}>
-                    {item.list.map((item, i) => (
-                      <Box key={i} className="list-item">
-                        <RiCheckboxCircleFill
-                          color="#3FDBB1"
-                          size="20px"
-                          sx={{ mr: 2 }}
-                        />
-                        <span>{item}</span>
-                      </Box>
-                    ))}
-                  </Box>
-             
-                </Box>
-                {/* <Box sx={styles.illustration}>
-                  <Image src={item.image} alt="illustration" />
-                </Box> */}
-              </TabPane>
-            ))}
-          </Tabs>
-        </Container>
-      </Box>
+      <div className="bg-white px-4 xl:px-0 py-16 ">
+
+
+<div className="mx-auto container">
+                        <div className="mb-4 lg:mb-20">
+                            <h1 className="text-center text-2xl lg:text-5xl text-blue-kai font-custom  tracking-1px">Nuestros Clientes</h1>
+                            {/* <h2 className="text-base lg:text-lg text-center text-color-gray-light font-custom mt-5 tracking-wider">Quienes deciden apoyarnos </h2> */}
+                        </div>
+                        <div className="flex flex-wrap justify-center">
+
+
+                        <div class="bg-white-200 min-h-screen">
+  <div class="max-w-6xl mx-auto px-8 py-16">
+    <div class="relative">
+      <div class="relative lg:flex rounded-lg shadow-2xl  hover:scale-105 overflow-hidden">
+        <div class=" h-60 lg:h-auto lg:w-5/6  relative flex items-center justify-center">
+          <img class="absolute h-full w-full bg-gray-50 object-cover lg:pr-4" src="./LogoMefi.png" alt="" />
+        </div>
+        <div class="relative lg:w-7/12 bg-white">
+          <svg class="absolute h-full text-white w-24 -ml-12" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <polygon points="50,0 100,0 50,100 0,100"/>
+        </svg>
+          <div class="relative py-12 lg:py-24 px-8 lg:px-16 text-gray-600 leading-relaxed font-custom">
+            <p>
+              Desarrollo de Servicios de Software a Medida para el  <strong class="text-gray-900 font-custom">Ministerio de Economia de la Provincia de Santa Cruz</strong>.
+            </p>
+            {/* <p class="mt-6">
+              <a href="#" class="font-medium text-blue-600 hover:text-indigo-900">Conoce mas sobre la solucion &rarr;</a>
+            </p> */}
+          </div>
+        </div>
+      </div>
+      <div class="absolute inset-y-0 left-0 lg:flex lg:items-center">
+        {/* <button class="mt-24 lg:mt-0 -ml-6 h-12 w-12 rounded-full bg-white p-3 shadow-lg">
+        <svg class="h-full w-full text-indigo-900" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M5.41 11H21a1 1 0 0 1 0 2H5.41l5.3 5.3a1 1 0 0 1-1.42 1.4l-7-7a1 1 0 0 1 0-1.4l7-7a1 1 0 0 1 1.42 1.4L5.4 11z"/>
+        </svg>
+      </button>
+      </div>
+      <div class="absolute inset-y-0 right-0 lg:flex lg:items-center">
+        <button class="mt-24 lg:mt-0 -mr-6 h-12 w-12 rounded-full bg-white p-3 shadow-lg">
+        <svg class="h-full w-full text-indigo-900" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M18.59 13H3a1 1 0 0 1 0-2h15.59l-5.3-5.3a1 1 0 1 1 1.42-1.4l7 7a1 1 0 0 1 0 1.4l-7 7a1 1 0 0 1-1.42-1.4l5.3-5.3z"/>
+        </svg>
+      </button> */}
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+        </div>
+        </div>
     );
 }
 

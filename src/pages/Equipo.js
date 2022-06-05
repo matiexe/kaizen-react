@@ -234,23 +234,6 @@ export const Equipo = () => {
                         </div>
                       </div>
 
-                      <div className="w-48 m-4 py-2 bg-white shadow-lg">
-
-<img className="w-24 h-24 mx-auto rounded-full" src="lucas.jpg" />
-
-<p className="mx-2 mt-2 text-center text-lg text-gray-700 font-custom font-semibold">Lucas Pirito</p>
-
-<p className="text-center font-custom text-gray-500">Back-End Developer</p>
-
-<div className="flex justify-center items-center mt-2">
-
-<a target="_blank" href="https://www.linkedin.com/in/lucas-pirito/" className="w-8 h-8">
- <button className="bg-blue-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1 hover:bg-white hover:text-orange-500 hover:border-2 hover:border-orange-500" type="button">
-     <i className="fab fa-linkedin"></i>
-   </button>
- </a>
-</div>
-</div>
                       
                </>
 
