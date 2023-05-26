@@ -142,8 +142,8 @@ const index = () => {
                   Cluster Tecnologico Santa Cruz
                 </p>
                 <a
-                  target="_blank"
-                  href="https://clustertecnologicosantacruz.com.ar/"
+                  target="_self"
+                  href="#"
                   className="text-gray-500 font-custom hover:text-orange-400  text-center pb-1 text-sm"
                 >
                   <p className="text-gray-500 font-custom text-center hover:text-orange-400  pb-1 text-sm">
