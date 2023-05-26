@@ -1,32 +1,29 @@
-import React from 'react'
+import React from "react";
 const index = () => {
-    function redirigircluster()
-    {
-        window.location.assign('https://citargentina.org/');
-    }
-    function redirigirasistec()
-    {
-        window.location.assign('https://assistec.com.ar/');
-    }
-    function redirigircluster2()
-    {
-        window.location.assign('https://clustertecnologicosantacruz.com.ar/');
-    }
-    function redirigirmicrosysy()
-    {
-        window.location.assign('http://www.microsis.com.ar/');
-    }
-    return (
-        <>
-              <div className="bg-white px-4 xl:px-0 py-16 ">
-           
-                    <div className="mx-auto container">
-                        <div className="mb-4 lg:mb-20">
-                            <h1 className="text-center text-2xl lg:text-5xl text-blue-kai font-custom  tracking-1px">Nuestras Alianzas</h1>
-                            {/* <h2 className="text-base lg:text-lg text-center text-color-gray-light font-custom mt-5 tracking-wider">Quienes deciden apoyarnos </h2> */}
-                        </div>
-                        <div className="flex flex-wrap justify-center">
-                            {/* <div className="max-w-sm m-4 bg-white rounded-3xl shadow-md py-6 px-16">
+  function redirigircluster() {
+    window.location.assign("https://cit.org.ar/");
+  }
+  function redirigirasistec() {
+    window.location.assign("https://assistec.com.ar/");
+  }
+  function redirigircluster2() {
+    window.location.assign("https://#/");
+  }
+  function redirigirmicrosysy() {
+    window.location.assign("http://www.microsis.com.ar/");
+  }
+  return (
+    <>
+      <div className="bg-white px-4 xl:px-0 py-16 ">
+        <div className="mx-auto container">
+          <div className="mb-4 lg:mb-20">
+            <h1 className="text-center text-2xl lg:text-5xl text-blue-kai font-custom  tracking-1px">
+              Nuestras Alianzas
+            </h1>
+            {/* <h2 className="text-base lg:text-lg text-center text-color-gray-light font-custom mt-5 tracking-wider">Quienes deciden apoyarnos </h2> */}
+          </div>
+          <div className="flex flex-wrap justify-center">
+            {/* <div className="max-w-sm m-4 bg-white rounded-3xl shadow-md py-6 px-16">
                                 <svg xmlns="http://www.w3.org/2000/svg" width={72} height={72} viewBox="0 0 72 72" fill="none">
                                     <circle cx={36} cy={36} r={36} fill="#B0F3FF" />
                                     <circle cx={36} cy={36} r={36} fill="url(#paint0_linear)" />
@@ -45,88 +42,118 @@ const index = () => {
                                     <p className="mt-4 tracking-wider leading-8 text-base w-11/12 text-color-gray-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra ultrices nunc, non at</p>
                                 </div>
                             </div> */}
-                            <div className="xl:w-1/4 sm:w-5/12 sm:max-w-xs relative mb-32 lg:mb-20
-                         xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105" onClick={() => redirigircluster()}     
-               >
-                <div className="h-64 z-20">
-                     <img
-                       src="/Cluster-Blanco-RGB-01.jpg"
-                       alt="Cluster Impulso Tecnologico"
-                       className="h-full w-full object-cover overflow-hidden rounded"
-                       width={400}
-                       height={300}
-                     />
-                   </div>
-                   <div className="p-4 shadow-lg w-full mx-auto -mt-8 bg-white rounded-b z-30 relative">
-                     <p className="uppercase text-sm font-custom text-gray-700 text-center pb-1">Cluster de Impulso Tecnologico</p>
-                     <a target="_blank" href="https://citargentina.org/" className="text-gray-500 font-custom hover:text-blue-kai text-center pb-1 text-sm">
-                     <p className="text-gray-500 font-custom text-center hover:text-blue-kai pb-1 text-sm">Cluster impulso tecnoclogico</p>
-                     </a>
-                     
-                   </div>
-                 </div>
-                 <div                  
-                   className="pl-2 xl:w-1/4 sm:w-5/12 sm:max-w-xs relative mb-32 lg:mb-20
-                         xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105"  onClick={() => redirigirmicrosysy() }    
-               >
-                <div className="h-64 z-20">
-                     <img
-                       src="/Microsis.jpg"
-                       alt="Microsis"
-                       className=" h-56 w-full object-top  object-cover   pt-24 pb-12  bg-white rounded"
-                  
-                     />
-                   </div>
-                   <div className="p-4 shadow-lg w-full mx-auto -mt-8 bg-white rounded-b z-30 relative">
-                     <p className="uppercase text-sm font-custom text-gray-700 text-center pb-1">MicroSis</p>
-                     <a target="_blank" href="http://www.microsis.com.ar/" className="text-gray-500 font-custom hover:text-blue-400 text-center pb-1 text-sm">
-                     <p className="text-gray-500 font-custom hover:text-blue-400 text-center pb-1 text-sm">MicroSis</p>
-                     </a>    
-                   
-                   </div>
-                 </div>          
-                 <div
-                   
-                   className="pl-2 xl:w-1/4 sm:w-5/12 sm:max-w-xs relative mb-32 lg:mb-20
-                         xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105"  onClick={() => redirigirasistec()}     
-               >
-                <div className="h-64 z-20">
-                     <img
-                       src="/Logo transparente.png"
-                       alt="Asistec"
-                       className="  h-full w-full   bg-white  object-cover overflow-hidden rounded"
-               
-                     />
-                   </div>
-                   <div className="p-4 shadow-lg w-full mx-auto -mt-8 bg-white rounded-b z-30 relative">
-                     <p className="uppercase text-sm text-gray-700 font-custom text-center pb-1">Assistec</p>
-                     <a target="_blank" href="https://assistec.com.ar/" className="text-gray-500 font-custom hover:text-redNaphtol text-center pb-1 text-sm">
-                     <p className="text-gray-500 font-custom hover:text-redNaphtol text-center pb-1 text-sm">Assistec</p>
-                     </a>
-                   </div>
-                 </div>
-                 <div
-                   
-                   className=" pl-2 xl:w-1/4 sm:w-5/12 sm:max-w-xs relative mb-32 lg:mb-20
-                         xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105"   onClick={() => redirigircluster2()}    
-               >
-                <div className="bg-gray h-64 z-20">
-                     <img
-                       src="/LogoCsc.jpeg"
-                       alt="Cluster Tecnologico Santa Cruz"
-                       className="h-full  w-full object-cover overflow-hidden rounded"
-                      
-                     />
-                   </div>
-                   <div className="p-4 shadow-lg w-full mx-auto -mt-8 bg-white rounded-b z-30 relative">
-                     <p className="uppercase text-sm text-gray-700 font-custom text-center pb-1">Cluster Tecnologico Santa Cruz</p>
-                     <a target="_blank" href="https://clustertecnologicosantacruz.com.ar/" className="text-gray-500 font-custom hover:text-orange-400  text-center pb-1 text-sm">
-                     <p className="text-gray-500 font-custom text-center hover:text-orange-400  pb-1 text-sm">Cluster Tecnologico Santa Cruz</p>
-                     </a>
-                   </div>
-                 </div>
+            <div
+              className="xl:w-1/4 sm:w-5/12 sm:max-w-xs relative mb-32 lg:mb-20
+                         xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105"
+              onClick={() => redirigircluster()}
+            >
+              <div className="h-64 z-20">
+                <img
+                  src="/Cluster-Blanco-RGB-01.jpg"
+                  alt="Cluster Impulso Tecnologico"
+                  className="h-full w-full object-cover overflow-hidden rounded"
+                  width={400}
+                  height={300}
+                />
+              </div>
+              <div className="p-4 shadow-lg w-full mx-auto -mt-8 bg-white rounded-b z-30 relative">
+                <p className="uppercase text-sm font-custom text-gray-700 text-center pb-1">
+                  Cluster de Impulso Tecnologico
+                </p>
+                <a
+                  target="_blank"
+                  href="https://citargentina.org/"
+                  className="text-gray-500 font-custom hover:text-blue-kai text-center pb-1 text-sm"
+                >
+                  <p className="text-gray-500 font-custom text-center hover:text-blue-kai pb-1 text-sm">
+                    Cluster impulso tecnoclogico
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div
+              className="pl-2 xl:w-1/4 sm:w-5/12 sm:max-w-xs relative mb-32 lg:mb-20
+                         xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105"
+              onClick={() => redirigirmicrosysy()}
+            >
+              <div className="h-64 z-20">
+                <img
+                  src="/Microsis.jpg"
+                  alt="Microsis"
+                  className=" h-56 w-full object-top  object-cover   pt-24 pb-12  bg-white rounded"
+                />
+              </div>
+              <div className="p-4 shadow-lg w-full mx-auto -mt-8 bg-white rounded-b z-30 relative">
+                <p className="uppercase text-sm font-custom text-gray-700 text-center pb-1">
+                  MicroSis
+                </p>
+                <a
+                  target="_blank"
+                  href="http://www.microsis.com.ar/"
+                  className="text-gray-500 font-custom hover:text-blue-400 text-center pb-1 text-sm"
+                >
+                  <p className="text-gray-500 font-custom hover:text-blue-400 text-center pb-1 text-sm">
+                    MicroSis
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div
+              className="pl-2 xl:w-1/4 sm:w-5/12 sm:max-w-xs relative mb-32 lg:mb-20
+                         xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105"
+              onClick={() => redirigirasistec()}
+            >
+              <div className="h-64 z-20">
+                <img
+                  src="/Logo transparente.png"
+                  alt="Asistec"
+                  className="  h-full w-full   bg-white  object-cover overflow-hidden rounded"
+                />
+              </div>
+              <div className="p-4 shadow-lg w-full mx-auto -mt-8 bg-white rounded-b z-30 relative">
+                <p className="uppercase text-sm text-gray-700 font-custom text-center pb-1">
+                  Assistec
+                </p>
+                <a
+                  target="_blank"
+                  href="https://assistec.com.ar/"
+                  className="text-gray-500 font-custom hover:text-redNaphtol text-center pb-1 text-sm"
+                >
+                  <p className="text-gray-500 font-custom hover:text-redNaphtol text-center pb-1 text-sm">
+                    Assistec
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div
+              className=" pl-2 xl:w-1/4 sm:w-5/12 sm:max-w-xs relative mb-32 lg:mb-20
+                         xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105"
+              onClick={() => redirigircluster2()}
+            >
+              <div className="bg-gray h-64 z-20">
+                <img
+                  src="/LogoCsc.jpeg"
+                  alt="Cluster Tecnologico Santa Cruz"
+                  className="h-full  w-full object-cover overflow-hidden rounded"
+                />
+              </div>
+              <div className="p-4 shadow-lg w-full mx-auto -mt-8 bg-white rounded-b z-30 relative">
+                <p className="uppercase text-sm text-gray-700 font-custom text-center pb-1">
+                  Cluster Tecnologico Santa Cruz
+                </p>
+                <a
+                  target="_blank"
+                  href="https://clustertecnologicosantacruz.com.ar/"
+                  className="text-gray-500 font-custom hover:text-orange-400  text-center pb-1 text-sm"
+                >
+                  <p className="text-gray-500 font-custom text-center hover:text-orange-400  pb-1 text-sm">
+                    Cluster Tecnologico Santa Cruz
+                  </p>
+                </a>
+              </div>
+            </div>
 
-{/* 
+            {/* 
 
                             
                             <div className="max-w-sm m-4 bg-white rounded-3xl shadow-md py-6 px-16">
@@ -232,12 +259,11 @@ const index = () => {
                                     <p className="mt-4 tracking-wider leading-8 text-base w-11/12 text-color-gray-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra ultrices nunc, non at</p>
                                 </div>
                             </div> */}
-                        </div>
-                    </div>
-                </div>
-              
-        </>
-    );
-}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default index;
