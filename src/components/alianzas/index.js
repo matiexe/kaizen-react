@@ -62,7 +62,7 @@ const index = () => {
                 </p>
                 <a
                   target="_blank"
-                  href="https://citargentina.org/"
+                  href="https://cit.org.ar/"
                   className="text-gray-500 font-custom hover:text-blue-kai text-center pb-1 text-sm"
                 >
                   <p className="text-gray-500 font-custom text-center hover:text-blue-kai pb-1 text-sm">
