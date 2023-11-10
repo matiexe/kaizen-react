@@ -7,7 +7,7 @@ import {
   scrollSpy,
   scroller,
 } from "react-scroll";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../asset/logo.png";
 
 const Header = () => {
@@ -63,8 +63,8 @@ const Header = () => {
                   className=" py-2  border-r bg-white w-full absolute rounded top-0 left-0 right-0 shadow mt-20 md:px-4 md:mt-20 z-20"
                 >
                   <li className="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-blue-kai focus:text-blue-kai focus:outline-none">
-                    <a href="/bolsadetrabajo">
-                      <span className="ml-2 font-bold">Bolsa de Trabajo</span>
+                    <a href="http://empleos.kaizenit.com.ar">
+                      <span className="ml-2 font-bold">Pool de Talentos</span>
                     </a>
                   </li>
                   <NavLink to="/services">
@@ -78,6 +78,11 @@ const Header = () => {
                   <li className=" cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-blue-kai flex items-center focus:text-blue-kai focus:outline-none">
                     <a href="/equipo">
                       <span className="ml-2 font-bold">Equipo</span>
+                    </a>
+                  </li>
+                  <li className=" cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-blue-kai flex items-center focus:text-blue-kai focus:outline-none">
+                    <a href="https://cit.org.ar/capacitaciones/">
+                      <span className="ml-2 font-bold">Capacitaciones</span>
                     </a>
                   </li>
 
@@ -121,12 +126,12 @@ const Header = () => {
               </div>
               <div className="hidden sm:block sm:ml-6">
                 <div className="flex space-x-4">
-                  <NavLink
+                  <a
                     className="text-gray-700  hover:text-blue-400 px-3 py-4 rounded-md text-lg font-medium"
-                    to="/bolsadetrabajo"
+                    href="http://empleos.kaizenit.com.ar"
                   >
-                    Bolsa de Trabajo
-                  </NavLink>
+                    <span>Pool de Talentos</span>
+                  </a>
                   <NavLink
                     className="text-gray-700 hover:text-redNaphtol px-3 py-4 rounded-md text-lg font-medium"
                     to="/services"
@@ -139,6 +144,12 @@ const Header = () => {
                   >
                     Equipo
                   </NavLink>
+                  <a
+                    className="text-gray-700 hover:text-orange-400 px-3 py-4 rounded-md text-lg font-medium"
+                    href="https://cit.org.ar/capacitaciones/"
+                  >
+                    Capacitaciones
+                  </a>
                 </div>
               </div>
             </div>
